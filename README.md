@@ -44,6 +44,7 @@ Additional languages can be added easily using the Web Speech API language codes
 speech-to-text/
 │
 ├── public/
+│   └── screenshot.png
 │
 ├── src/
 │   ├── components/
@@ -62,3 +63,10 @@ speech-to-text/
 ├── package.json
 ├── package-lock.json
 └── README.md
+```
+
+## 📸 Screenshot
+
+<img width="728" height="411" alt="image" src="https://github.com/user-attachments/assets/f1877fad-a1a0-42bf-b9c6-bb41aaa66a46" />
+
+<img width="698" height="411" alt="image" src="https://github.com/user-attachments/assets/69ced575-97f1-42b5-b237-aa863317f2ed" />
