@@ -6,8 +6,10 @@ function App() {
 
   return (
     <>
-    <SpeechToText/>
-    
+      <SpeechToText />
+      <footer className="footer">
+        Developed by <strong>Sashi Saravan</strong>
+      </footer>
     </>
   )
 }

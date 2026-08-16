@@ -164,8 +164,6 @@ const SpeechToText = () => {
                 <Typography sx={SpeechToTextStyles.subtitle}>
                     Convert your voice into text instantly.
                 </Typography>
-
-                {/* Language */}
                 <Box sx={{ marginBottom: "20px" }}>
                     <Typography
                         sx={{
@@ -207,8 +205,6 @@ const SpeechToText = () => {
                         <MenuItem value="hi-IN">Hindi</MenuItem>
                     </Select>
                 </Box>
-
-                {/* Text Area */}
                 <textarea
                     value={text}
                     onChange={(event) => {
@@ -218,8 +214,6 @@ const SpeechToText = () => {
                     placeholder="Start speaking and your text will appear here..."
                     style={SpeechToTextStyles.textArea}
                 />
-
-                {/* Status */}
                 <Box sx={SpeechToTextStyles.status}>
                     <Box
                         sx={{
@@ -233,7 +227,6 @@ const SpeechToText = () => {
                     {isListening ? "Listening..." : "Ready to listen"}
                 </Box>
 
-                {/* Actions */}
                 <Box sx={SpeechToTextStyles.actions}>
                     {!isListening ? (
                         <Button
@@ -281,8 +274,6 @@ const SpeechToText = () => {
                         Download
                     </Button>
                 </Box>
-
-                {/* Stats */}
                 <Box sx={SpeechToTextStyles.stats}>
                     <Typography>
                         Words:{" "}
