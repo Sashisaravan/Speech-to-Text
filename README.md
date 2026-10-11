@@ -28,16 +28,6 @@ The application converts spoken words into text in real time and provides useful
 - **Web Speech API**
 - **CSS**
 
-## 🌍 Supported Languages
-
-Currently supported languages include:
-
-- 🇮🇳 English (India)
-- 🇺🇸 English (US)
-- 🇮🇳 Tamil
-
-Additional languages can be added easily using the Web Speech API language codes.
-
 ## 📂 Project Structure
 
 ```text
